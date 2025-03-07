@@ -1,0 +1,1 @@
+<p>&copy; 2025 Loja de Livros | Todos os direitos reservados.</p>
