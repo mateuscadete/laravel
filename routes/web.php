@@ -3,7 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 // Rota para a página inicial
-Route::get('/', [UserController::class, 'index']->name('user.index'));
+Route::get('/', function (){
+    return view('welcome');
+});
 
 // Rota para a página sobre
 Route::get('/about', function (){
